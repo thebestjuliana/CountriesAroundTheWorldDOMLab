@@ -38,6 +38,9 @@ function DisplayUSAColors(){
     document.getElementById("CountryName").innerHTML=usa.name;
     document.getElementById("OfficialLanguage").innerHTML=usa.lang;
     document.getElementById("HelloWorld").innerHTML=usa.greeting;
+
+    let img =document.getElementById("flagPic")
+    img.setAttribute("src", "usa.jpg");
 }
 function DisplayMexicoColors(){
     document.getElementById("Color1").style.backgroundColor=mexico.colors[0];
@@ -47,6 +50,8 @@ function DisplayMexicoColors(){
     document.getElementById("CountryName").innerHTML=mexico.name;
     document.getElementById("OfficialLanguage").innerHTML=mexico.lang;
     document.getElementById("HelloWorld").innerHTML=mexico.greeting;
+    let img =document.getElementById("flagPic")
+    img.setAttribute("src", "mexico.jpg");
 }
 function DisplayAlgeriaColors(){
     document.getElementById("Color1").style.backgroundColor=algeria.colors[0];
@@ -56,4 +61,6 @@ function DisplayAlgeriaColors(){
     document.getElementById("CountryName").innerHTML=algeria.name;
     document.getElementById("OfficialLanguage").innerHTML=algeria.lang;
     document.getElementById("HelloWorld").innerHTML=algeria.greeting;
+    let img =document.getElementById("flagPic")
+    img.setAttribute("src", "algeria.jpg");
 }
